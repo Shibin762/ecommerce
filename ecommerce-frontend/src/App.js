@@ -7,6 +7,8 @@ import Catalog from './pages/Catalog';
 import Search from './pages/Search';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Cart from './pages/Cart';
+import ProductDetails from './pages/ProductDetails';
 // Import other pages...
 
 function App() {
@@ -20,6 +22,9 @@ function App() {
           <Route path="/search" element={<Search />} />
           <Route path="/login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
+          <Route path="/Cart" element={<Cart />} />
+          <Route path="/ProductDetails" element={<ProductDetails />} />
+
           {/* Add other routes */}
         </Routes>
       </div>
