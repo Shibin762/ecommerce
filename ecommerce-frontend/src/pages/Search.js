@@ -223,6 +223,8 @@ function Search() {
           </div>
 
           {/* Products Grid */}
+
+          
           {filteredProducts.length > 0 ? (
             <div className="products-grid">
               {filteredProducts.map(product => (
