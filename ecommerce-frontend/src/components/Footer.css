@@ -1,0 +1,19 @@
+footer {
+    background-color: #343a40;
+    padding: 2rem 0;
+  }
+  
+  .social-icons a {
+    font-size: 1.2rem;
+    margin: 0 10px;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #0d6efd !important;
+    transform: translateY(-3px);
+  }
+  
+  footer p {
+    margin-bottom: 0.5rem;
+  }

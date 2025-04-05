@@ -1,0 +1,22 @@
+/* Main layout */
+.main-content {
+  min-height: calc(100vh - 120px); /* Adjust based on header/footer height */
+  padding: 20px 0;
+}
+
+/* Navbar tweaks */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+/* Footer positioning */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,26 @@
+/* Shared form styles */
+.auth-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-form h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #0d6efd;
+  }
+  
+  .form-control {
+    margin-bottom: 1.25rem;
+  }
+  
+  .text-danger {
+    font-size: 0.875rem;
+    margin-top: -0.75rem;
+    margin-bottom: 0.75rem;
+    display: block;
+  }
